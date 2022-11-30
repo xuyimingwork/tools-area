@@ -1,8 +1,10 @@
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
 import { VantResolver } from 'unplugin-vue-components/resolvers';
+import { defineConfig } from 'vite';
 
-export default {
+export default defineConfig({
+  base: './',
   plugins: [
     vue(),
     Components({
@@ -12,4 +14,4 @@ export default {
   build: {
     outDir: 'docs'
   }
-}
+})
