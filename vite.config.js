@@ -9,5 +9,7 @@ export default {
       resolvers: [VantResolver()],
     }),
   ],
-  
+  build: {
+    outDir: 'docs'
+  }
 }
