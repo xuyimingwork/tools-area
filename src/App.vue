@@ -11,7 +11,7 @@
     totalAreaAdd: 0,
     totalAreaMinus: 10,
     minCount: 1,
-    maxCount: 10,
+    maxCount: 3,
     contains: []
   }, initFilter || undefined))
   
